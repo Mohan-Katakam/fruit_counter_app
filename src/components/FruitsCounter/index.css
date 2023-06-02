@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-layer {
+  height: 90vh;
+  width: 90vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.set-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 350px;
+  width: 300px;
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.fruits-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.span {
+  color: #ffd569;
+}
+
+@media (max-width: 768px) {
+  .fruits-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .img {
+    height: 150px;
+    width: 120px;
+  }
+  .heading {
+    text-align: center;
+  }
+}
